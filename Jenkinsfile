@@ -4,7 +4,7 @@ pipeline
  stages
     {
         stage('scm checkout')
-        { steps { git branch: 'master', url: 'https://github.com/prakashk0301/mavenproject.git' }}
+        { steps { git branch: 'master', url: 'https://github.com/neerajchauhan514/mymaventestlab.git' }}
 
 
         stage('compile the code')  //mnv compile command to compile the code
